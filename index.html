@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AJ Web Studio | Criação de Sites</title>
+    <meta name="description" content="Especialista em criação de sites, Landing Pages e UI/UX Design para empresas. Transforme visitantes em clientes com um site rápido, acessível e otimizado para o Google.">
+    <meta name="keywords" content="criação de sites, desenvolvedora front-end, UX/UI designer, sites para empresas, landing page, site responsivo, web design Guarulhos, SP, freelancer criação de sites">
+    <meta name="author" content="Ana Julia Toriani Pessoa">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="AJ Web Studio | Criação de Sites para Negócios">
+    <meta property="og:description" content="O seu negócio não pode depender apenas do Instagram. Tenha um site profissional e venda 24/7.">
+    <meta property="og:image" content="./img/logoajcriart.svg">
+    <meta property="og:type" content="website">
+    
+    <link rel="icon" href="./img/logoajcriart.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/logoajcriart.svg">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo" aria-label="Home">AJ<span style="color: var(--text-muted); font-weight: 400;">. Web Studio</span></a>
+            
+            <nav class="nav" aria-label="Menu Principal">
+                <ul class="nav__list">
+                    <li><a href="#" class="nav__link active" data-i18n="nav_home">Início</a></li>
+                    <li><a href="#beneficios" class="nav__link" data-i18n="nav_benefits">Por que ter um site?</a></li>
+                    <li><a href="#projetos" class="nav__link" data-i18n="nav_projects">Projetos</a></li>
+                    <li><a href="#faq" class="nav__link" data-i18n="nav_faq">Dúvidas</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <button id="lang-toggle" class="theme-btn" aria-label="Mudar idioma" style="font-weight: bold; font-size: 0.9rem;">EN</button>
+                <button id="theme-toggle" class="theme-btn" aria-label="Alternar Tema">
+                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                <a href="#contato" class="btn btn--outline desktop-only" data-i18n="cta_quote">Fazer Orçamento</a>
+                <button class="mobile-menu-btn" aria-label="Abrir Menu" aria-expanded="false">
+                    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-progress-bar"></div>
+    </header>
+
+    <div class="mobile-menu-overlay" id="mobile-nav">
+        <nav class="mobile-nav">
+            <a href="#" class="mobile-link" data-i18n="nav_home">Início</a>
+            <a href="#beneficios" class="mobile-link" data-i18n="nav_benefits">Por que ter um site?</a>
+            <a href="#projetos" class="mobile-link" data-i18n="nav_projects">Projetos</a>
+            <a href="#faq" class="mobile-link" data-i18n="nav_faq">Dúvidas</a>
+            <a href="#contato" class="btn btn--primary mobile-cta" data-i18n="cta_quote">Fazer Orçamento</a>
+        </nav>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__split-layout">
+                    <div class="hero__side hero__side--left">
+                        <h1 class="hero__text">Front-End<br>Developer</h1>
+                        <p class="hero__subtext" data-i18n="hero_logic">Sites Rápidos & Seguros</p>
+                    </div>
+                    <div class="hero__image-area">
+                        <div class="hero-image-wrapper">
+                            <img src="./img/ajbase.webp" alt="Foto AJ" class="img-base js-img-base" onerror="this.src='./img/ajbase.png'">
+                            <img src="./img/pintura.webp" alt="Ilustração AJ" class="img-paint js-img-paint" onerror="this.src='./img/pintura.png'">
+                        </div>
+                    </div>
+                    <div class="hero__side hero__side--right">
+                        <h1 class="hero__text">UX/UI<br>Designer</h1>
+                        <p class="hero__subtext" data-i18n="hero_empathy">Design que Vende</p>
+                    </div>
+                </div>
+                <div class="hero__actions-center">
+                    <p class="section-desc" style="margin-bottom: 20px;" data-i18n="hero_desc">Profissionalize seu negócio com uma presença digital de alto nível.</p>
+                    <a href="#contato" class="btn btn--primary glowing-btn" data-i18n="cta_quote">Fazer Orçamento</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="section section--alt">
+            <div class="container-content section--center">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="pain_title">Por que seu negócio precisa de um site hoje?</h2>
+                    <p class="section-desc" data-i18n="pain_sub">O Instagram atrai, mas o site é o que passa confiança e fecha negócios.</p>
+                </div>
+                <div class="differential-icons" aria-hidden="true">
+                    <div class="diff-item">
+                        <div class="diff-icon">🔍</div>
+                        <h4 data-i18n="pain_1_title">Encontrado no Google</h4>
+                        <p style="font-size: 0.9rem; margin-top: 10px; color: var(--text-secondary);" data-i18n="pain_1_desc">Se o cliente procura seu serviço e você não tem site, seu concorrente leva a venda.</p>
+                    </div>
+                    <div class="diff-item">
+                        <div class="diff-icon">🏪</div>
+                        <h4 data-i18n="pain_2_title">Vitrine Aberta 24/7</h4>
+                        <p style="font-size: 0.9rem; margin-top: 10px; color: var(--text-secondary);" data-i18n="pain_2_desc">Um site atende, tira dúvidas e gera credibilidade mesmo enquanto você dorme.</p>
+                    </div>
+                    <div class="diff-item">
+                        <div class="diff-icon">🛡️</div>
+                        <h4 data-i18n="pain_3_title">Mais Credibilidade</h4>
+                        <p style="font-size: 0.9rem; margin-top: 10px; color: var(--text-secondary);" data-i18n="pain_3_desc">Qualquer um faz perfil social. Um domínio próprio mostra que sua empresa é séria.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="container">
+                <div class="section-header section--center">
+                    <h2 class="section-title" data-i18n="projects_title">Projetos reais para negócios reais</h2>
+                    <p class="section-desc" data-i18n="projects_desc">Design e estratégia aplicados para gerar resultados.</p>
+                </div>
+                <div class="projects-grid">
+                    
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <img src="./img/leaodejuda.png" alt="Leão de Judá Auto Elétrica" loading="lazy">
+                        </div>
+                        <div class="project-card__content">
+                            <div class="tags"><span class="tag" data-i18n="tag_local">Serviço Local</span></div>
+                            <h3 data-i18n="project_06_title">Leão de Judá</h3>
+                            <p data-i18n="project_leao_desc">Landing Page High-End com estética moderna. Foco em alta performance, acessibilidade e facilidade de contato para conversão via WhatsApp.</p>
+                            
+                            <div class="project-links" style="margin-top: auto; padding-top: 15px;">
+                                <a href="https://leaodejuda.vercel.app/" target="_blank" class="icon-link" aria-label="Ver Site Online" title="Ver Site Online">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <img src="./img/casafrancesa.png" alt="Casa Francesa Lavanderia Premium" loading="lazy">
+                        </div>
+                        <div class="project-card__content">
+                            <div class="tags"><span class="tag" data-i18n="tag_store">Vitrine Virtual</span></div>
+                            <h3 data-i18n="project_07_title">Casa Francesa</h3>
+                            <p data-i18n="project_casa_desc">Landing Page institucional premium para uma lavanderia tradicional. Design imersivo com foco total em estética, navegação fluida e acessibilidade.</p>
+                            
+                            <div class="project-links" style="margin-top: auto; padding-top: 15px;">
+                                <a href="https://casafrancesa.vercel.app/" target="_blank" class="icon-link" aria-label="Ver Site Online" title="Ver Site Online">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <img src="./img/sorvete.png" alt="Geladinhos & Sorvetes Gourmet" loading="lazy" onerror="this.src='./img/placeholder.png'">
+                        </div>
+                        <div class="project-card__content">
+                            <div class="tags"><span class="tag" data-i18n="tag_catalog">Catálogo</span></div>
+                            <h3>Didilicias</h3>
+                            <p data-i18n="project_didi_desc">Catálogo apetitoso e dinâmico para venda de geladinhos e sorvetes gourmet. Desenvolvido para agilizar pedidos e facilitar a venda direta pelo WhatsApp do comércio.</p>
+                            
+                            <div class="project-links" style="margin-top: auto; padding-top: 15px;">
+                                <a href="https://geladinhosesorvetes.vercel.app/" target="_blank" class="icon-link" aria-label="Ver Site Online" title="Ver Site Online">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="section section--alt">
+            <div class="container-content section--center">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="testi_title">O que dizem os clientes</h2>
+                    <p class="section-desc" data-i18n="testi_sub">Resultados reais de quem confiou no meu trabalho.</p>
+                </div>
+                <div class="projects-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                    <div class="diff-item testi-card">
+                        <span class="quote-mark">"</span>
+                        <p data-i18n="testi_1">"A AJ fez nosso site super rápido e já estamos recebendo clientes pelo Google! O design ficou incrível e super fácil de usar no celular."</p>
+                        <h4>Leão de Judá</h4>
+                        <span>Auto Elétrica</span>
+                    </div>
+                    <div class="diff-item testi-card">
+                        <span class="quote-mark">"</span>
+                        <p data-i18n="testi_2">"Nossas vendas de geladinhos gourmet aumentaram muito depois que centralizamos o catálogo no site. Muito profissional e atenciosa!"</p>
+                        <h4>Didilicias</h4>
+                        <span>Doceria Gourmet</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container-content">
+                <div class="section-header section--center">
+                    <h2 class="section-title" data-i18n="faq_title">Dúvidas Frequentes</h2>
+                </div>
+                <div class="faq-container">
+                    <details class="faq-item">
+                        <summary data-i18n="faq_1_q">Qual o prazo de entrega do site?</summary>
+                        <p data-i18n="faq_1_a">A maioria das Landing Pages e sites institucionais são entregues entre 7 a 15 dias úteis, dependendo da complexidade e da sua aprovação do design.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary data-i18n="faq_2_q">Preciso pagar mensalidade?</summary>
+                        <p data-i18n="faq_2_a">Não cobro mensalidade pelo site! Você pagará apenas o valor do projeto. Os únicos custos anuais externos são o domínio (seu nome.com.br) e a hospedagem (te indico as melhores opções).</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary data-i18n="faq_3_q">Você faz a identidade visual também?</summary>
+                        <p data-i18n="faq_3_a">Sim! Como tenho formação em UX/UI Design, posso criar o logotipo e as cores da sua empresa caso você ainda não tenha, em um pacote completo.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato" class="footer section--alt">
+        <div class="container footer__container">
+            <div class="footer__row" style="align-items: flex-start;">
+                
+                <div class="footer__cta text-left" style="flex: 1;">
+                    <h2 data-i18n="footer_title" style="font-size: 2.5rem;">Pronto para digitalizar sua empresa?</h2>
+                    <p data-i18n="footer_desc" style="margin-left: 0;">Mande uma mensagem direta no WhatsApp ou preencha o formulário. Monto um orçamento sem compromisso para você.</p>
+                    
+                    <a href="https://wa.me/5511980578182?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20para%20meu%20site!" target="_blank" class="btn btn--primary glowing-btn" style="margin-top: 10px;" data-i18n="cta_whatsapp_2">Chamar no WhatsApp</a>
+                </div>
+
+                <div class="footer__form-area" style="flex: 1; width: 100%;">
+                    <form action="https://formspree.io/f/xvzblzjp" method="POST" class="contact-form">
+                        <input type="text" name="nome" required placeholder="Seu Nome ou Empresa" data-i18n="[placeholder]form_name">
+                        <input type="email" name="email" required placeholder="Seu melhor E-mail" data-i18n="[placeholder]form_email">
+                        <textarea name="mensagem" required placeholder="Como posso ajudar o seu negócio?" data-i18n="[placeholder]form_msg"></textarea>
+                        <button type="submit" class="btn btn--outline" style="width: 100%;" data-i18n="form_submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="footer__copy">
+                <p>© 2026 AJ Web Studio. Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5511980578182?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20para%20meu%20site!" class="whatsapp-float" target="_blank" aria-label="Falar no WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zM223.9 414.8c-32 0-63.1-8.5-90.5-24.6l-6.5-3.8-67.2 17.6 17.9-65.5-4.2-6.7C55.6 295.5 45.4 260.6 45.4 223.6c0-98.3 80.1-178.4 178.6-178.4 47.7 0 92.5 18.6 126.1 52.3 33.7 33.7 52.3 78.5 52.3 126.2.1 98.4-80 178.5-178.5 178.5zM321.1 273.6c-5.3-2.7-31.5-15.5-36.4-17.3-4.9-1.8-8.5-2.7-12 2.7-3.6 5.3-13.8 17.3-16.9 20.8-3.1 3.5-6.2 4-11.5 1.3-5.3-2.7-22.5-8.3-42.8-26.4-15.8-14.1-26.5-31.6-29.6-36.9-3.1-5.3-.3-8.2 2.4-10.9 2.4-2.4 5.3-6.2 8-9.3 2.7-3.1 3.6-5.3 5.3-8.9 1.8-3.5.9-6.7-.4-9.3-1.3-2.7-12-28.9-16.4-39.6-4.3-10.4-8.7-9-12-9.1-3.1-.1-6.7-.1-10.2-.1-3.6 0-9.3 1.3-14.2 6.7-4.9 5.3-18.7 18.2-18.7 44.5 0 26.2 19.1 51.6 21.8 55.1 2.7 3.6 37.6 57.5 91 80.5 12.7 5.5 22.6 8.7 30.3 11.2 12.7 4 24.3 3.4 33.4 2.1 10.3-1.5 31.5-12.9 35.9-25.3 4.4-12.4 4.4-23.1 3.1-25.3-1.3-2.3-4.8-3.6-10.1-6.3z"/></svg>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+</body>
+</html>

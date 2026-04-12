@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>AJ Web Studio | Criação de Sites</title>
-    <meta name="description" content="Especialista em criação de sites, Landing Pages e UI/UX Design para empresas. Transforme visitantes em clientes com um site rápido, acessível e otimizado para o Google.">
-    <meta name="keywords" content="criação de sites, desenvolvedora front-end, UX/UI designer, sites para empresas, landing page, site responsivo, web design Guarulhos, SP, freelancer criação de sites">
+    <title>AJ Web Studio</title>
+    <meta name="description" content="Especialista em criação de sites em WordPress, WooCommerce, Landing Pages e UI/UX Design para empresas. Transforme visitantes em clientes.">
+    <meta name="keywords" content="criação de sites, desenvolvedora front-end, UX/UI designer, sites para empresas, landing page, site responsivo, web design Guarulhos, SP, freelancer criação de sites, WordPress, WooCommerce">
     <meta name="author" content="Ana Julia Toriani Pessoa">
     <meta name="robots" content="index, follow">
     
-    <meta property="og:title" content="AJ Web Studio | Criação de Sites para Negócios">
+    <meta property="og:title" content="AJ Digital | Especialista em Sites B2B">
     <meta property="og:description" content="O seu negócio não pode depender apenas do Instagram. Tenha um site profissional e venda 24/7.">
     <meta property="og:image" content="./img/logoajcriart.svg">
     <meta property="og:type" content="website">
@@ -33,12 +33,12 @@
 
     <header class="header">
         <div class="container header__container">
-            <a href="#" class="logo" aria-label="Home">AJ<span style="color: var(--text-muted); font-weight: 400;">. Web Studio</span></a>
+            <a href="#" class="logo" aria-label="Home">AJ<span style="color: var(--text-muted); font-weight: 400;">.Web Studio</span></a>
             
             <nav class="nav" aria-label="Menu Principal">
                 <ul class="nav__list">
                     <li><a href="#" class="nav__link active" data-i18n="nav_home">Início</a></li>
-                    <li><a href="#beneficios" class="nav__link" data-i18n="nav_benefits">Por que ter um site?</a></li>
+                    <li><a href="#servicos" class="nav__link" data-i18n="nav_services">Serviços</a></li>
                     <li><a href="#projetos" class="nav__link" data-i18n="nav_projects">Projetos</a></li>
                     <li><a href="#faq" class="nav__link" data-i18n="nav_faq">Dúvidas</a></li>
                 </ul>
@@ -62,7 +62,7 @@
     <div class="mobile-menu-overlay" id="mobile-nav">
         <nav class="mobile-nav">
             <a href="#" class="mobile-link" data-i18n="nav_home">Início</a>
-            <a href="#beneficios" class="mobile-link" data-i18n="nav_benefits">Por que ter um site?</a>
+            <a href="#servicos" class="mobile-link" data-i18n="nav_services">Serviços</a>
             <a href="#projetos" class="mobile-link" data-i18n="nav_projects">Projetos</a>
             <a href="#faq" class="mobile-link" data-i18n="nav_faq">Dúvidas</a>
             <a href="#contato" class="btn btn--primary mobile-cta" data-i18n="cta_quote">Fazer Orçamento</a>
@@ -74,8 +74,8 @@
             <div class="container">
                 <div class="hero__split-layout">
                     <div class="hero__side hero__side--left">
-                        <h1 class="hero__text">Front-End<br>Developer</h1>
-                        <p class="hero__subtext" data-i18n="hero_logic">Sites Rápidos & Seguros</p>
+                        <h1 class="hero__text" data-i18n="hero_title_left">Front End<br>Developer</h1>
+                        <p class="hero__subtext" data-i18n="hero_logic">Sites Rápidos & E-commerce</p>
                     </div>
                     <div class="hero__image-area">
                         <div class="hero-image-wrapper">
@@ -84,18 +84,53 @@
                         </div>
                     </div>
                     <div class="hero__side hero__side--right">
-                        <h1 class="hero__text">UX/UI<br>Designer</h1>
+                        <h1 class="hero__text" data-i18n="hero_title_right">UX/UI<br>Designer</h1>
                         <p class="hero__subtext" data-i18n="hero_empathy">Design que Vende</p>
                     </div>
                 </div>
                 <div class="hero__actions-center">
                     <p class="section-desc" style="margin-bottom: 20px;" data-i18n="hero_desc">Profissionalize seu negócio com uma presença digital de alto nível.</p>
-                    <a href="#contato" class="btn btn--primary glowing-btn" data-i18n="cta_quote">Fazer Orçamento</a>
+                    <a href="https://wa.me/5511980578182?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20r%C3%A1pido!" target="_blank" class="btn btn--primary glowing-btn" data-i18n="cta_hero">Receber orçamento rápido</a>
                 </div>
             </div>
         </section>
 
-        <section id="beneficios" class="section section--alt">
+        <section id="servicos" class="section section--alt">
+            <div class="container-content">
+                <div class="section-header section--center">
+                    <h2 class="section-title" data-i18n="services_title">Como posso te ajudar</h2>
+                    <p class="section-desc" data-i18n="services_desc">Escolha a solução ideal para o momento atual do seu negócio.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3 data-i18n="serv_1_title">Landing Page para Vendas</h3>
+                        <p data-i18n="serv_1_desc">Página única de alta conversão, ideal para campanhas, captura de leads ou infoprodutos.</p>
+                        <div class="service-meta" data-i18n="serv_1_time">⏱ Prazo: 7 a 10 dias</div>
+                        <a href="https://wa.me/5511980578182?text=Quero%20uma%20Landing%20Page!" target="_blank" class="btn btn--outline btn--full" data-i18n="cta_serv_1">Peça sua página agora</a>
+                    </div>
+
+                    <div class="service-card highlight-card">
+                        <div class="service-icon">🌐</div>
+                        <h3 data-i18n="serv_2_title">Site Institucional & Loja</h3>
+                        <p data-i18n="serv_2_desc">Site robusto em WordPress ou e-commerce WooCommerce para profissionalizar e escalar sua marca com Elementor Pro.</p>
+                        <div class="service-meta" data-i18n="serv_2_time">⏱ Prazo: 15 a 20 dias</div>
+                        <a href="https://wa.me/5511980578182?text=Quero%20um%20Site/Loja!" target="_blank" class="btn btn--primary glowing-btn btn--full" data-i18n="cta_serv_2">Quero vender online</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🛠️</div>
+                        <h3 data-i18n="serv_3_title">Ajustes e Melhorias</h3>
+                        <p data-i18n="serv_3_desc">Seu site está lento, precisa de redesign ou de adequação à LGPD? Faço otimizações técnicas e visuais pontuais.</p>
+                        <div class="service-meta" data-i18n="serv_3_time">⏱ Prazo: Sob consulta</div>
+                        <a href="https://wa.me/5511980578182?text=Preciso%20de%20ajuda%20com%20meu%20site!" target="_blank" class="btn btn--outline btn--full" data-i18n="cta_serv_3">Falar com especialista</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="section">
             <div class="container-content section--center">
                 <div class="section-header">
                     <h2 class="section-title" data-i18n="pain_title">Por que seu negócio precisa de um site hoje?</h2>
@@ -121,14 +156,13 @@
             </div>
         </section>
 
-        <section id="projetos" class="section">
+        <section id="projetos" class="section section--alt">
             <div class="container">
                 <div class="section-header section--center">
                     <h2 class="section-title" data-i18n="projects_title">Projetos reais para negócios reais</h2>
                     <p class="section-desc" data-i18n="projects_desc">Design e estratégia aplicados para gerar resultados.</p>
                 </div>
                 <div class="projects-grid">
-                    
                     <article class="project-card">
                         <div class="project-card__image">
                             <img src="./img/leaodejuda.png" alt="Leão de Judá Auto Elétrica" loading="lazy">
@@ -137,7 +171,6 @@
                             <div class="tags"><span class="tag" data-i18n="tag_local">Serviço Local</span></div>
                             <h3 data-i18n="project_06_title">Leão de Judá</h3>
                             <p data-i18n="project_leao_desc">Landing Page High-End com estética moderna. Foco em alta performance, acessibilidade e facilidade de contato para conversão via WhatsApp.</p>
-                            
                             <div class="project-links" style="margin-top: auto; padding-top: 15px;">
                                 <a href="https://leaodejuda.vercel.app/" target="_blank" class="icon-link" aria-label="Ver Site Online" title="Ver Site Online">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -152,13 +185,12 @@
 
                     <article class="project-card">
                         <div class="project-card__image">
-                            <img src="./img/casafrancesa.png" alt="Casa Francesa Lavanderia Premium" loading="lazy">
+                            <img src="./img/casafrancesa.png" alt="Casa Francesa" loading="lazy">
                         </div>
                         <div class="project-card__content">
                             <div class="tags"><span class="tag" data-i18n="tag_store">Vitrine Virtual</span></div>
                             <h3 data-i18n="project_07_title">Casa Francesa</h3>
                             <p data-i18n="project_casa_desc">Landing Page institucional premium para uma lavanderia tradicional. Design imersivo com foco total em estética, navegação fluida e acessibilidade.</p>
-                            
                             <div class="project-links" style="margin-top: auto; padding-top: 15px;">
                                 <a href="https://casafrancesa.vercel.app/" target="_blank" class="icon-link" aria-label="Ver Site Online" title="Ver Site Online">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -173,13 +205,12 @@
 
                     <article class="project-card">
                         <div class="project-card__image">
-                            <img src="./img/sorvete.png" alt="Geladinhos & Sorvetes Gourmet" loading="lazy" onerror="this.src='./img/placeholder.png'">
+                            <img src="./img/sorvete.png" alt="Didilicias" loading="lazy" onerror="this.src='./img/sorvete.png'">
                         </div>
                         <div class="project-card__content">
                             <div class="tags"><span class="tag" data-i18n="tag_catalog">Catálogo</span></div>
                             <h3>Didilicias</h3>
-                            <p data-i18n="project_didi_desc">Catálogo apetitoso e dinâmico para venda de geladinhos e sorvetes gourmet. Desenvolvido para agilizar pedidos e facilitar a venda direta pelo WhatsApp do comércio.</p>
-                            
+                            <p data-i18n="project_didi_desc">Catálogo apetitoso e dinâmico para venda de geladinhos e sorvetes gourmet. Desenvolvido para agilizar pedidos e facilitar a venda direta pelo WhatsApp.</p>
                             <div class="project-links" style="margin-top: auto; padding-top: 15px;">
                                 <a href="https://geladinhosesorvetes.vercel.app/" target="_blank" class="icon-link" aria-label="Ver Site Online" title="Ver Site Online">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -191,7 +222,19 @@
                             </div>
                         </div>
                     </article>
+                </div>
+            </div>
+        </section>
 
+        <section id="manutencao" class="section">
+            <div class="container-content">
+                <div class="maint-banner">
+                    <span class="tag-highlight" data-i18n="maint_tag">Cuidado Contínuo</span>
+                    <h2 class="maint-title" data-i18n="maint_title">O seu site não termina na entrega</h2>
+                    <p class="maint-desc" data-i18n="maint_desc">
+                        Após a entrega, você pode contar comigo para manter seu site atualizado, seguro contra invasões e funcionando perfeitamente. Planos mensais com suporte rápido via WhatsApp.
+                    </p>
+                    <a href="https://wa.me/5511980578182?text=Quero%20saber%20sobre%20a%20manuten%C3%A7%C3%A3o!" target="_blank" class="btn btn--primary glowing-btn" data-i18n="cta_maint">Consultar plano mensal</a>
                 </div>
             </div>
         </section>
@@ -231,7 +274,7 @@
                     </details>
                     <details class="faq-item">
                         <summary data-i18n="faq_2_q">Preciso pagar mensalidade?</summary>
-                        <p data-i18n="faq_2_a">Não cobro mensalidade pelo site! Você pagará apenas o valor do projeto. Os únicos custos anuais externos são o domínio (seu nome.com.br) e a hospedagem (te indico as melhores opções).</p>
+                        <p data-i18n="faq_2_a">A criação do site é um pagamento único! Os únicos custos externos anuais são o domínio e a hospedagem. Porém, ofereço pacotes opcionais de manutenção mensal caso você queira que eu cuide das atualizações, backups e suporte contínuo.</p>
                     </details>
                     <details class="faq-item">
                         <summary data-i18n="faq_3_q">Você faz a identidade visual também?</summary>
@@ -250,11 +293,11 @@
                     <h2 data-i18n="footer_title" style="font-size: 2.5rem;">Pronto para digitalizar sua empresa?</h2>
                     <p data-i18n="footer_desc" style="margin-left: 0;">Mande uma mensagem direta no WhatsApp ou preencha o formulário. Monto um orçamento sem compromisso para você.</p>
                     
-                    <a href="https://wa.me/5511980578182?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20para%20meu%20site!" target="_blank" class="btn btn--primary glowing-btn" style="margin-top: 10px;" data-i18n="cta_whatsapp_2">Chamar no WhatsApp</a>
-                </div>
+                    <a href="https://wa.me/5511980578182?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20para%20meu%20site!" target="_blank" class="btn btn--primary glowing-btn" style="margin-top: 10px;" data-i18n="cta_whatsapp_2">Peça seu site agora</a>
+                                </div>
 
                 <div class="footer__form-area" style="flex: 1; width: 100%;">
-                    <form action="https://formspree.io/f/xvzblzjp" method="POST" class="contact-form">
+                    <form action="https://formspree.io/f/SEU_ID" method="POST" class="contact-form">
                         <input type="text" name="nome" required placeholder="Seu Nome ou Empresa" data-i18n="[placeholder]form_name">
                         <input type="email" name="email" required placeholder="Seu melhor E-mail" data-i18n="[placeholder]form_email">
                         <textarea name="mensagem" required placeholder="Como posso ajudar o seu negócio?" data-i18n="[placeholder]form_msg"></textarea>
@@ -264,7 +307,7 @@
 
             </div>
             <div class="footer__copy">
-                <p>© 2026 AJ Web Studio. Todos os direitos reservados</p>
+                <p>© 2026 AJ Web Studio. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>

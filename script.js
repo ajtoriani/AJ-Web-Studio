@@ -3,13 +3,13 @@
 // ==========================================
 const translations = {
     "pt": {
+        // NAV E HERO
         "nav_home": "Início",
         "nav_services": "Serviços",
         "nav_projects": "Projetos",
         "nav_faq": "Dúvidas",
         "nav_contact": "Contato",
         "cta_quote": "Fazer Orçamento",
-        
         "hero_title_left": "Front End<br>Developer",
         "hero_logic": "Sites Rápidos & E-commerce",
         "hero_title_right": "UX/UI<br>Designer",
@@ -17,7 +17,8 @@ const translations = {
         "hero_desc": "Profissionalize seu negócio com uma presença digital de alto nível.",
         "cta_hero": "Receber orçamento rápido",
         
-        "services_title": "Como posso te ajudar",
+        // SERVIÇOS
+        "services_title": "Como posso te ajudar ?",
         "services_desc": "Escolha a solução ideal para o momento atual do seu negócio.",
         "serv_1_title": "Landing Page para Vendas",
         "serv_1_desc": "Página única de alta conversão, ideal para campanhas, captura de leads ou infoprodutos.",
@@ -32,6 +33,7 @@ const translations = {
         "serv_3_time": "⏱ Prazo: Sob consulta",
         "cta_serv_3": "Falar com especialista",
 
+        // BENEFÍCIOS E DORES
         "pain_title": "Por que seu negócio precisa de um site hoje?",
         "pain_sub": "O Instagram atrai, mas o site é o que passa confiança e fecha negócios.",
         "pain_1_title": "Encontrado no Google",
@@ -41,22 +43,36 @@ const translations = {
         "pain_3_title": "Mais Credibilidade",
         "pain_3_desc": "Qualquer um faz perfil social. Um domínio próprio mostra que sua empresa é séria.",
         
+        // PROJETOS (NOVOS E ANTIGOS)
         "projects_title": "Projetos reais para negócios reais",
         "projects_desc": "Design e estratégia aplicados para gerar resultados.",
+        
+        "tag_theater": "Entretenimento",
+        "tag_ecommerce": "E-commerce",
         "tag_local": "Serviço Local",
-        "project_06_title": "Leão de Judá",
-        "project_leao_desc": "Landing Page High-End com estética moderna. Foco em alta performance, acessibilidade e facilidade de contato para conversão via WhatsApp.",
         "tag_store": "Vitrine Virtual",
-        "project_07_title": "Casa Francesa",
-        "project_casa_desc": "Landing Page institucional premium para uma lavanderia tradicional. Design imersivo com foco total em estética, navegação fluida e acessibilidade.",
         "tag_catalog": "Catálogo",
+        
+        "project_baleia_title": "Baleia: O Espetáculo",
+        "project_baleia_desc": "Landing Page imersiva e interativa. Foco em experiência do usuário (UX) para divulgar a peça e impulsionar a conversão de ingressos.",
+        "project_iresolve_title": "iResolve",
+        "project_iresolve_desc": "E-commerce de tecnologia e assistência técnica. Plataforma robusta desenhada para venda de aparelhos e facilitação de orçamentos online.",
+        "project_life_title": "Life Quantic",
+        "project_life_desc": "Loja virtual de óleos essenciais e bem-estar. Estrutura focada em navegação fluida, design clean e checkout otimizado para aumentar vendas.",
+        "project_leao_title": "Leão de Judá",
+        "project_leao_desc": "Landing Page High-End com estética moderna. Foco em alta performance, acessibilidade e facilidade de contato para conversão via WhatsApp.",
+        "project_casa_title": "Casa Francesa",
+        "project_casa_desc": "Landing Page institucional premium para uma lavanderia tradicional. Design imersivo com foco total em estética, navegação fluida e acessibilidade.",
+        "project_didi_title": "Didilícias",
         "project_didi_desc": "Catálogo apetitoso e dinâmico para venda de geladinhos e sorvetes gourmet. Desenvolvido para agilizar pedidos e facilitar a venda direta pelo WhatsApp.",
         
+        // MANUTENÇÃO
         "maint_tag": "Cuidado Contínuo",
         "maint_title": "O seu site não termina na entrega",
         "maint_desc": "Após a entrega, você pode contar comigo para manter seu site atualizado, seguro contra invasões e funcionando perfeitamente. Planos mensais com suporte rápido via WhatsApp.",
         "cta_maint": "Consultar plano mensal",
         
+        // DEPOIMENTOS E FAQ
         "testi_title": "O que dizem os clientes",
         "testi_sub": "Resultados reais de quem confiou no meu trabalho.",
         "testi_1": "\"A AJ fez nosso site super rápido e já estamos recebendo clientes pelo Google! O design ficou incrível e super fácil de usar no celular.\"",
@@ -70,6 +86,7 @@ const translations = {
         "faq_3_q": "Você faz a identidade visual também?",
         "faq_3_a": "Sim! Como tenho formação em UX/UI Design, posso criar o logotipo e as cores da sua empresa caso você ainda não tenha, em um pacote completo.",
         
+        // FOOTER & FORM
         "footer_title": "Pronto para digitalizar sua empresa?",
         "footer_desc": "Mande uma mensagem direta no WhatsApp ou preencha o formulário. Monto um orçamento sem compromisso.",
         "cta_whatsapp_2": "Peça seu site agora",
@@ -80,13 +97,13 @@ const translations = {
         "form_submit": "Enviar Mensagem"
     },
     "en": {
+        // NAV E HERO
         "nav_home": "Home",
         "nav_services": "Services",
         "nav_projects": "Projects",
         "nav_faq": "FAQ",
         "nav_contact": "Contact",
         "cta_quote": "Get a Quote",
-        
         "hero_title_left": "WordPress<br>Developer",
         "hero_logic": "For Small Businesses & E-commerces",
         "hero_title_right": "Landing<br>Pages",
@@ -94,7 +111,8 @@ const translations = {
         "hero_desc": "Elevate your business with a high-end, conversion-focused digital presence.",
         "cta_hero": "Get a fast quote",
         
-        "services_title": "How I can help you",
+        // SERVIÇOS
+        "services_title": "How I can help you ?",
         "services_desc": "Choose the perfect solution for your current business stage.",
         "serv_1_title": "High-Converting Landing Page",
         "serv_1_desc": "Single page optimized for conversions, perfect for campaigns, lead capture, or info-products.",
@@ -109,6 +127,7 @@ const translations = {
         "serv_3_time": "⏱ Turnaround: On demand",
         "cta_serv_3": "Talk to a specialist",
 
+        // BENEFÍCIOS
         "pain_title": "Why does your business need a website today?",
         "pain_sub": "Instagram attracts, but a website builds trust and closes deals.",
         "pain_1_title": "Found on Google",
@@ -118,17 +137,30 @@ const translations = {
         "pain_3_title": "More Credibility",
         "pain_3_desc": "Anyone can make a social profile. A custom domain shows you mean business.",
         
+        // PROJETOS (NOVOS E ANTIGOS)
         "projects_title": "Real projects for real businesses",
         "projects_desc": "Design and strategy applied to drive results.",
+        
+        "tag_theater": "Entertainment",
+        "tag_ecommerce": "E-commerce",
         "tag_local": "Local Service",
-        "project_06_title": "Leão de Judá",
-        "project_leao_desc": "Focused on easy contact, location clarity, and building total trust for an auto repair shop.",
         "tag_store": "Virtual Showcase",
-        "project_07_title": "Casa Francesa",
-        "project_casa_desc": "Sophisticated interface highlighting product visual quality. Premium aesthetics and accessibility.",
         "tag_catalog": "Catalog",
+        
+        "project_baleia_title": "Baleia: The Play",
+        "project_baleia_desc": "Immersive and interactive Landing Page. Focused on user experience (UX) to promote the play and drive ticket sales.",
+        "project_iresolve_title": "iResolve",
+        "project_iresolve_desc": "Tech e-commerce and repair service center. A robust platform designed for selling devices and streamlining online quotes.",
+        "project_life_title": "Life Quantic",
+        "project_life_desc": "Wellness and essential oils online store. Structured around smooth navigation, clean design, and an optimized checkout to boost sales.",
+        "project_leao_title": "Leão de Judá",
+        "project_leao_desc": "Focused on easy contact, location clarity, and building total trust for an auto repair shop.",
+        "project_casa_title": "Casa Francesa",
+        "project_casa_desc": "Sophisticated interface highlighting product visual quality. Premium aesthetics and accessibility.",
+        "project_didi_title": "Didilícias",
         "project_didi_desc": "Appetizing dynamic catalog for selling gourmet treats. Streamlined for WhatsApp ordering.",
         
+        // MANUTENÇÃO E FAQ
         "maint_tag": "Continuous Care",
         "maint_title": "A website requires ongoing care",
         "maint_desc": "After launch, you can count on me to keep your site updated, secure against threats, and running flawlessly. Monthly plans available with fast WhatsApp support.",
@@ -147,6 +179,7 @@ const translations = {
         "faq_3_q": "Do you also create the visual identity?",
         "faq_3_a": "Yes! With my UX/UI Design background, I can create your logo and brand colors if you don't have them yet.",
         
+        // FOOTER
         "footer_title": "Ready to scale your business?",
         "footer_desc": "Send a direct message on WhatsApp or fill out the form for a free estimate.",
         "cta_whatsapp_2": "Get your site now",
